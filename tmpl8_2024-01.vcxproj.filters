@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="game.cpp" />
+    <ClCompile Include="template\opencl.cpp">
+      <Filter>template</Filter>
+    </ClCompile>
+    <ClCompile Include="template\opengl.cpp">
+      <Filter>template</Filter>
+    </ClCompile>
+    <ClCompile Include="template\sprite.cpp">
+      <Filter>template</Filter>
+    </ClCompile>
+    <ClCompile Include="template\surface.cpp">
+      <Filter>template</Filter>
+    </ClCompile>
+    <ClCompile Include="template\template.cpp">
+      <Filter>template</Filter>
+    </ClCompile>
+    <ClCompile Include="template\tmpl8math.cpp">
+      <Filter>template</Filter>
+    </ClCompile>
+    <ClCompile Include="template\scene.cpp">
+      <Filter>template</Filter>
+    </ClCompile>
+    <ClCompile Include="bomberman\core\physics.cpp">
+      <Filter>bomberman\core</Filter>
+    </ClCompile>
+    <ClCompile Include="bomberman\core\levelManager.cpp">
+      <Filter>bomberman\core</Filter>
+    </ClCompile>
+    <ClCompile Include="bomberman\core\events.cpp">
+      <Filter>bomberman\core</Filter>
+    </ClCompile>
+    <ClCompile Include="bomberman\core\entity.cpp">
+      <Filter>bomberman\core</Filter>
+    </ClCompile>
+    <ClCompile Include="bomberman\core\audio.cpp">
+      <Filter>bomberman\core</Filter>
+    </ClCompile>
+    <ClCompile Include="bomberman\core\assetManager.cpp">
+      <Filter>bomberman\core</Filter>
+    </ClCompile>
+    <ClCompile Include="bomberman\entities\bomb.cpp">
+      <Filter>bomberman\entities</Filter>
+    </ClCompile>
+    <ClCompile Include="bomberman\entities\bonuses.cpp">
+      <Filter>bomberman\entities</Filter>
+    </ClCompile>
+    <ClCompile Include="bomberman\entities\dummy.cpp">
+      <Filter>bomberman\entities</Filter>
+    </ClCompile>
+    <ClCompile Include="bomberman\entities\enemy.cpp">
+      <Filter>bomberman\entities</Filter>
+    </ClCompile>
+    <ClCompile Include="bomberman\entities\menu.cpp">
+      <Filter>bomberman\entities</Filter>
+    </ClCompile>
+    <ClCompile Include="bomberman\entities\player.cpp">
+      <Filter>bomberman\entities</Filter>
+    </ClCompile>
+    <ClCompile Include="bomberman\entities\powerups.cpp">
+      <Filter>bomberman\entities</Filter>
+    </ClCompile>
+    <ClCompile Include="bomberman\rendering\debugRenderer.cpp">
+      <Filter>bomberman\rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="bomberman\rendering\renderer.cpp">
+      <Filter>bomberman\rendering</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="game.h" />
+    <ClInclude Include="template\common.h">
+      <Filter>template</Filter>
+    </ClInclude>
+    <ClInclude Include="template\opencl.h">
+      <Filter>template</Filter>
+    </ClInclude>
+    <ClInclude Include="template\opengl.h">
+      <Filter>template</Filter>
+    </ClInclude>
+    <ClInclude Include="template\precomp.h">
+      <Filter>template</Filter>
+    </ClInclude>
+    <ClInclude Include="template\sprite.h">
+      <Filter>template</Filter>
+    </ClInclude>
+    <ClInclude Include="template\surface.h">
+      <Filter>template</Filter>
+    </ClInclude>
+    <ClInclude Include="template\tmpl8math.h">
+      <Filter>template</Filter>
+    </ClInclude>
+    <ClInclude Include="cl\tools.cl">
+      <Filter>kernels</Filter>
+    </ClInclude>
+    <ClInclude Include="template\scene.h">
+      <Filter>template</Filter>
+    </ClInclude>
+    <ClInclude Include="bomberman\core\physics.h">
+      <Filter>bomberman\core</Filter>
+    </ClInclude>
+    <ClInclude Include="bomberman\core\levelManager.h">
+      <Filter>bomberman\core</Filter>
+    </ClInclude>
+    <ClInclude Include="bomberman\core\events.h">
+      <Filter>bomberman\core</Filter>
+    </ClInclude>
+    <ClInclude Include="bomberman\core\entity.h">
+      <Filter>bomberman\core</Filter>
+    </ClInclude>
+    <ClInclude Include="bomberman\core\audio.h">
+      <Filter>bomberman\core</Filter>
+    </ClInclude>
+    <ClInclude Include="bomberman\core\assetManager.h">
+      <Filter>bomberman\core</Filter>
+    </ClInclude>
+    <ClInclude Include="bomberman\entities\bomb.h">
+      <Filter>bomberman\entities</Filter>
+    </ClInclude>
+    <ClInclude Include="bomberman\entities\bonuses.h">
+      <Filter>bomberman\entities</Filter>
+    </ClInclude>
+    <ClInclude Include="bomberman\entities\dummy.h">
+      <Filter>bomberman\entities</Filter>
+    </ClInclude>
+    <ClInclude Include="bomberman\entities\enemy.h">
+      <Filter>bomberman\entities</Filter>
+    </ClInclude>
+    <ClInclude Include="bomberman\entities\menu.h">
+      <Filter>bomberman\entities</Filter>
+    </ClInclude>
+    <ClInclude Include="bomberman\entities\player.h">
+      <Filter>bomberman\entities</Filter>
+    </ClInclude>
+    <ClInclude Include="bomberman\entities\powerups.h">
+      <Filter>bomberman\entities</Filter>
+    </ClInclude>
+    <ClInclude Include="bomberman\rendering\debugRenderer.h">
+      <Filter>bomberman\rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="bomberman\rendering\renderer.h">
+      <Filter>bomberman\rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="bomberman\misc\utils.h">
+      <Filter>bomberman\misc</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="README.md">
+      <Filter>template</Filter>
+    </None>
+    <None Include="cl\kernels.cl">
+      <Filter>kernels</Filter>
+    </None>
+    <None Include="template\LICENSE">
+      <Filter>template</Filter>
+    </None>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="template">
+      <UniqueIdentifier>{c65d8edd-a382-4ee7-9af9-5d04810e2884}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="kernels">
+      <UniqueIdentifier>{96ad1716-f468-46c6-8f16-5accbc19d76c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bomberman">
+      <UniqueIdentifier>{2bcab85c-2e9a-44df-8748-3504bb9687b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bomberman\core">
+      <UniqueIdentifier>{b6ab4648-f122-4823-b2c4-986a6f77fce4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bomberman\entities">
+      <UniqueIdentifier>{5afa3ca3-0e4d-4e4f-b02f-d07b12077647}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bomberman\rendering">
+      <UniqueIdentifier>{f03205cd-b57a-40aa-8ac7-9874090d9ec4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bomberman\misc">
+      <UniqueIdentifier>{e0f564aa-6d4d-4a6a-9f46-f620f5998ff4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
